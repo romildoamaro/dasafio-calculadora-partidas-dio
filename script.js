@@ -22,7 +22,7 @@ function getRank(victories, defeats) {
 }
 
 
-const victories = 210;
-const defeats = 50;
-const result = getRank(victories, defeats);
+let victories = 210;
+let defeats = 50;
+let result = getRank(victories, defeats);
 console.log(result);
